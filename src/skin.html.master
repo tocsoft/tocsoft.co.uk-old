@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<body>
+    <header> 
+          <h1 id="title">Scott Williams</h1> 
+          <nav> 
+            <ul> 
+              <li class='selected?{VirtualPath.StartsWith("index.html")}'><a href="/index.html" >About Me</a></li> 
+              <li class='selected?{VirtualPath.StartsWith("portfolio")}'><a href="/portfolio/" >Portfolio</a></li> 
+              <li class='selected?{VirtualPath.StartsWith("blog")}'><a href="/blog/" >Blog</a></li> 
+            </ul> 
+          </nav> 
+    </header> 
+    <sect!{''}ion>
+        <use content='view' />
+    </sec!{''}tion>
+    <aside id="contact-details"> 
+        <img src='/images/scott.jpg' alt='a picture of scott williams'/>
+        <p>
+            If you would like to contact me you can use one of the methods below.
+        </p>
+        <nav> 
+            <ul class='contact'> 
+              <li><a href="http://twitter.com/tocsoft" class='twitter' rel='me'>@tocsoft</a></li> 
+              <li><a href="http://facebook.com/tocsoft" class='facebook' rel='me'>tocsoft</a></li> 
+              <li><a href="mailto:tocsoft@gmail.com" class='email' rel='me'>tocsoft@gmail.com</a></li>  
+            </ul> 
+          </nav> 
+    </aside>
+    <footer>
+        &copy; Scott Williams !{System.DateTime.Now.ToString('yyyy')}
+    </footer>
+</body>
+</html>
