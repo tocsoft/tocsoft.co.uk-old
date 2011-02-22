@@ -1,3 +1,3 @@
 cd src
-..\webgen\site.exe -e ..\gen
+..\bin\webgen\site.exe -e ..\gen
 cd ..
