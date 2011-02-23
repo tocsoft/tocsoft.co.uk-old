@@ -16,7 +16,6 @@
             <ul> 
               <li class='selected?{VirtualPath.StartsWith("index.html")}'><a href="/index.html" >About Me</a></li> 
               <li class='selected?{VirtualPath.StartsWith("portfolio")}'><a href="/portfolio/index.html" >Portfolio</a></li> 
-              <li class='selected?{VirtualPath.StartsWith("blog")}'><a href="/blog/index.html" >Blog</a></li> 
             </ul> 
           </nav> 
     </header> 
