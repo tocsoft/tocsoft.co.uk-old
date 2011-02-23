@@ -1,7 +1,15 @@
+<! DOCTYPE html>
 <html>
 <head>
+    <link  href="http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here:regular" rel="stylesheet" type="text/css" >
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='/site.css' rel='stylesheet' type='text/css'>
+    <style>
+        
+    </style>
 </head>
 <body>
+    <div id='wrapper'>
     <header> 
           <h1 id="title">Scott Williams</h1> 
           <nav> 
@@ -31,5 +39,6 @@
     <footer>
         &copy; Scott Williams !{System.DateTime.Now.ToString('yyyy')}
     </footer>
+    </div>
 </body>
 </html>
